@@ -1,0 +1,48 @@
+/* computer first */
+
+/* media querie for tablet */
+
+@media (max-width:1160px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 23px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .lessons .col img {
+        height: 150px;
+        margin-bottom: 18px;
+    }
+}
+
+/* media querie for mobile */
+@media (max-width: 480px) {
+    h1{
+        font-size: 38px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    h3{
+        font-size: 21px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .lessons .col img {
+        height: 100px;
+        margin-bottom: 16px;
+    }
+}
